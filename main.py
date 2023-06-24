@@ -8,16 +8,16 @@ from web3 import Web3
 from auto_metamask import*
 import time
 
-driver_path ="C:/Users/wanpc/Desktop/selenium/chromedriver.exe"
+driver_path =
 metamask_url = "chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/home.html"
-goplus_url = "https://www.google.com.vn/?hl=vi"
+goplus_url = "https://www.google.com.vn/?hl=en"
 meta_pass = "simplejazz1994"
 
 options = Options()
 service = Service(executable_path=driver_path)
 
 options.add_experimental_option("detach", True)
-options.add_argument("user-data-dir=C:/Users/wanpc/AppData/Local/Google/Chrome/User Data/")
+options.add_argument("user-data-dir=C:/)
 path = '//*[@id="app-content"]/div/div[1]/div/div[2]/div/div/span'
 
 for i in range(28,29):
